@@ -1,0 +1,50 @@
+@import url("http://fonts.googleapis.com/css?family=Lobster");
+@import url("http://fonts.googleapis.com/css?family=Ephesis");
+
+th {
+  border: 2px solid black;
+}
+
+td {
+  border: 2px solid black;
+}
+
+table {
+  border: 2px solid black;
+}
+
+div > h1 {
+  font-family: Lobster;
+  font-size: 2rem;
+  color: green;
+}
+
+div p {
+  font-family: Ephesis;
+  font-size: 32px;
+  color: blue;
+}
+
+iframe {
+  width: 600px;
+  height: 500px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 600px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
+}

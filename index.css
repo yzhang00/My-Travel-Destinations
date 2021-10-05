@@ -1,0 +1,36 @@
+h1 {
+  background-color: gray;
+  color: blue;
+  font-size: 2em;
+  font-weight: 200;
+  font-style: italic;
+  border-color: red;
+  border-width: 1em;
+  border-style: solid;
+  border-radius: 15px;
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+}
+
+th {
+  border: 2px solid black;
+}
+
+table {
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#seattle {
+  color: green;
+}
+
+#pittsburgh {
+  color: blueviolet;
+}
+
+.img {
+  border: 2px solid black;
+}

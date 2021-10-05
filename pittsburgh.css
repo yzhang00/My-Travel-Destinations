@@ -1,0 +1,92 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+th {
+  border: 2px solid black;
+}
+
+td {
+  border: 2px solid black;
+}
+
+table {
+  border: 2px solid black;
+}
+
+.leaf {
+  font-size: 3em;
+}
+
+.leaf::after {
+  font-family: "Font Awesome 5 Solid";
+  content: "\f106c";
+}
+
+.zoo {
+  font-size: 3em;
+}
+
+.zoo::after {
+  font-family: "Font Awesome 5 Solid";
+  content: "\f1b0";
+}
+
+.class1.class2 {
+  color: red;
+  font-size: 2vw;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: left;
+}
+
+ul {
+  list-style: square;
+}
+
+h1,
+p {
+  color: green;
+}
+
+p::first-letter {
+  color: blue;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: gray;
+}
+
+iframe {
+  width: 600px;
+  height: 500px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 600px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
+}
